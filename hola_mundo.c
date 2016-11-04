@@ -8,7 +8,7 @@
 #include<stdio.h>
 
 /* Creamos la funcion principal main para que cuando sea llamado nuestro
- * programa entonces se ejecute esta funcion. Esta regresa un int*/
+ * programa entonces se ejecute esta funcion. Esta regresa un int */
 int main() {
 	/* Llamos la función printf que esta en stdio.h */
 	printf("¡Hola Mundo!\n");

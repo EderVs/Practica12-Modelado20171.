@@ -55,12 +55,17 @@ int main() {
 		printf(", %d", arr[i]);
 	}
 	printf("]\n");
+	/* Hacemos bubble sort con el arreglo */
 	bubble_sort(arr, 10);
+	/* Imprimimos sus valores */
 	printf("Arreglo despues de bubble sort ");
 	printf("[%d", arr[0]);
 	for (i = 1; i < 10; i++) {
 		printf(", %d", arr[i]);
 	}
 	printf("]\n");
+	/* Regresamos 0 ya que debemos regresar un int expresado en la firma
+	 * de la función
+	 * */
 	return 0;
 }
